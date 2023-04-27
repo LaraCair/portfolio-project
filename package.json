@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Портфолио фронтенд  разработчика",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "tape":"git",
+    "url": "git+https://github.com/"
+  },
+  "author": "Lara",
+  "license": "ISC"
+}
