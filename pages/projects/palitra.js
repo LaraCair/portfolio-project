@@ -4,7 +4,7 @@ function getRandomHex() {
     let hexCode = ''
 
     for (let i = 0 ; i < 6; i++) {
-        const randomHexIndex = Mach.floor(Math.random() * hexCodeArray.length);
+        const randomHexIndex = Math.floor(Math.random() * hexCodeArray.length);
         hexCode += hexCodeArray[randomHexIndex];
         
     }
@@ -13,12 +13,12 @@ function getRandomHex() {
 } 
 
 function setColor(hex) {
-    document.querySelector('.container').style.backgraund = hex;
+    document.querySelector('.container').style.background = hex;
 
 }
 
 function fiLLHexText(hex) {
-    document.querySelector('.hexCode').innerHTML= hex;
+    document.querySelector('.hexCode').innerHTML = hex;
 }
 
 function initRandomizer() {
