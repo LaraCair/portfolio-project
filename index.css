@@ -1,7 +1,8 @@
 @font-face {
    font-family: "projectTime";
-   src: url();
+   src: url("https://fonts.googleapis.com/css?family=Inconsolata");
 }
+
 *{
    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
@@ -100,13 +101,13 @@
 
 .getPersonageButton {
    border: 5px black solid;
-   height:  55%;
-   width: 40%;
+   height:  42%;
+   width: 24%;
    text-align:center;
    font-size: 37px;
    border-radius: 40px;
    margin-right: 2%;
-   background: #a87d8a;
+   background: #bfa8af;
    font-family: cursive;
    cursor: default;
 }
@@ -114,17 +115,38 @@
 .imagePersonageContainer {
    height: 100% ;
    width:40% ;
-   background-color: rgba(229, 138, 138, 0.527);
+   background-color: rgb(162 127 127 / 53%);
    border-radius: 0px 40px 40px 0px;
 }  
-.clock div{
-display: inline;
-font-size: 80px;
-
+.clock {
+   font-size: 80;
+   display: none;
+}
+.loader {
+   font-size: 100;
+   font-family: fantasy;
+   display: block;
 }
 
+.clock div{
+display: inline-block;
+font-size: 80;
+font-family: fantasy;
+color: rgb(215, 188, 148);
+background: #36312f;
+border-radius: 50% 50%; 
+width: 150px;
+text-align: center;
+}
 
+.clock .date {
+position: absolute;
+width: 570;
+height: 85;
+margin-top: -190;
+font-size: 40;
 
+}
 body {
    background-color: rgb(167, 157, 153);
 }
